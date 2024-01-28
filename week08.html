@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="referrer" content="no-referrer">
+    <title>FED Blog</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+
+    <script src="https://cdn.tailwindcss.com"></script> 
+    <script src="./tailwind.config.js"></script>
+</head>
+
+<body class="bg-cyan-100">
+    
+    <header>
+      <div>
+        <nav class="bg-green-500 p-2 flex flex-row justify-center gap-2">
+          <a class="hover:bg-white" href="week01.html">Week 1</a>
+          <a class="hover:bg-white" href="Week02.html">Week 2</a>
+          <a class="hover:bg-white" href="week03.html">Week 3</a>
+          <a class="hover:bg-white" href="week04.html">Week 4</a>
+          <a class="hover:bg-white" href="week05.html">Week 5</a>
+          <a class="hover:bg-white" href="week06.html">Week 6</a>
+          <a class="hover:bg-white" href="week07.html">Week 7</a>
+          <a class="hover:bg-white" href="week08.html">Week 8</a>
+          <a class="hover:bg-white" href="week09.html">Week 9</a>
+          <a class="hover:bg-white" href="week12.html">Week 12</a>
+          <a class="hover:bg-white" href="week13.html">Week 13</a>
+          <a class="hover:bg-white" href="week14.html">Week 14</a>
+        </nav>
+      </div>
+    </header>
+
+    <h1 class="text-center text-amber-600 font-mono text-7xl">Week 8 Dev Blog</h1>
+
+    <h2 class="p-4 text-center text-rose-700 text-2xl">Fetch API</h2>
+    <img src="selen.jpg" class="rounded-full w-[200px] h-[200px] m-auto">
+    <ul class="pl-10 text-fuchsia-500 list-disc">
+        <li>Data Attributes</li>
+        <ul class="pl-6 list-decimal">
+            <li>Store information in an HTML element</li>
+            <li>data-[name]="data" -- Add data attribute</li>
+        </ul>
+        <li>Getting and Setting Data Attributes</li>
+        <ul class="pl-6 list-decimal">
+            <li>document.querySelector() - get and set data attributes of an HTML element</li>
+            <li>.getAttribute(attrbName) - GET</li>
+            <li>.setAttribute(attrbName, value) - SET</li>
+        </ul>
+        <li>Asynchronous Javascript and XML (AJAX)</li>
+        <ul class="pl-6 list-decimal">
+            <li>Load data without refreshing the page and no interruptions when doing other activities</li>
+            <ul class="pl-6 list-decimal">
+                <li>Browser requests information from server</li>
+                <li>Data processed on the server and returned back to browser</li>
+                <li>Browser process and adds the data to the page</li>
+            </ul>
+        </ul>
+        <ul class="italic">TAKE NOTE *Outdated Method*</ul>  
+        <li>API</li>
+        <ul class="pl-6 list-decimal">
+            <li>Request and process the data and returns it</li>
+            <li>Called using <span class="underline">fetch</span> method</li>
+            <li>Methods for calling an api</li>
+            <ul class="pl-6 list-disc">
+                <li>GET - Retrieve data</li>
+                <li>POST - Add data</li>
+                <li>PUT - Update data</li>
+                <li>DELETE - Delete data</li>
+            </ul>
+            <li>Data is sent in JSON format to the API. Hence, encoding needed from a Javascript Object, using JSON.stringify()</li>
+        </ul>
+    </ul>
+ 
+</body>
+
+</html>
